@@ -1,0 +1,2256 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/navyarenjith/ontologies/2023/4/untitled-ontology-111#"
+     xml:base="http://www.semanticweb.org/navyarenjith/ontologies/2023/4/untitled-ontology-111"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2023/4/untitled-ontology-111"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Absence_of_food_insecurity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Absence_of_food_insecurity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Absence_of_hunger -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Absence_of_hunger">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_after_school_programs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_after_school_programs">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_balanced_meals -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_balanced_meals">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_clean_water_and_sanitation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_clean_water_and_sanitation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_computers -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_computers">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_technology_architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_digital_resources -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_digital_resources">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_technology_architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_extra_curricular_activities -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_extra_curricular_activities">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_green_spaces_in_neighborhood -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_green_spaces_in_neighborhood">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_healthcare -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_healthcare">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_immunization -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_immunization">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_online_educational_resources -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_online_educational_resources">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_technology_architecture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_preventive_care -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_preventive_care">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_routine_checks_up -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_routine_checks_up">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_technology -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_technology">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_mental_health -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_mental_health">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_physical_health -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_physical_health">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Adequate_duration_of_sleep_in_children -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adequate_duration_of_sleep_in_children">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Administrative_practices -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Administrative_practices">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Affordability_of_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Affordability_of_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Air_pollution -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Air_pollution">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Air_quality -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Air_quality">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Articulation_and_Phonetics -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Articulation_and_Phonetics">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Artistic_Expression -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Artistic_Expression">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_and_accessibility_of_health_care_services">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Access_to_healthcare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_counseling -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_counseling">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Mental_health_support"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_mental_health_services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_libraries -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_libraries">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_mental_health_services -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_mental_health_services">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Mental_health_support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_nutritious_food_options -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_nutritious_food_options">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_technology_architecture -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_technology_architecture">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Access_to_technology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Availability_of_tutoring_centers -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_tutoring_centers">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Bilingualism_and_Language_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bilingualism_and_Language_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Caregiver_Bonding -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Caregiver_Bonding">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cause_and_Effect_Understanding -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cause_and_Effect_Understanding">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Chronic_disease_management -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Chronic_disease_management">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cognitive_Stimulation_in_early_childhood -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Stimulation_in_early_childhood">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#College_and_carrier_readiness_program -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#College_and_carrier_readiness_program">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Community_engagement_and_partnership -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_engagement_and_partnership">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Community_role_model -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_role_model">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Community_support_and_engagement -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_support_and_engagement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Conducive_sleep_environment -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Conducive_sleep_environment">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Conflict_Resolution -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Conflict_Resolution">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cooperation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cooperation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Coordination_and_Balance -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Coordination_and_Balance">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cost_of_living -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cost_of_living">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Creative_Thinking -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creative_Thinking">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Creativity_and_Imagination -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creativity_and_Imagination">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Crime_rate_levels -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Crime_rate_levels">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_safety"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Level_of_community_violence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_Identity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Identity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_Sensitivity_and_Inclusion -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Sensitivity_and_Inclusion">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_Values_and_Beliefs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Values_and_Beliefs">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_bias_in_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_bias_in_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_celebrations -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_celebrations">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_diversity_and_inclusion -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_diversity_and_inclusion">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_expectations -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_expectations">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_factors -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_heritage_and_traditions -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_heritage_and_traditions">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_identity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_identity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_influence_on_teaching_and_learning_style -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_influence_on_teaching_and_learning_style">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_norms_and_values -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_norms_and_values">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cultural_responsiveness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_responsiveness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Curriculum_development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Curriculum_development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cyber_ethics -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cyber_ethics">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cyberbullying_prevention -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cyberbullying_prevention">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dance_and_Movement -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dance_and_Movement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Digital_Media_literacy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_Media_literacy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Digital_citizenship -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_citizenship">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Digital_communication -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_communication">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Digital_footprint -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_footprint">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Digital_health_and_well_being -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_health_and_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Discipline_polices -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Discipline_polices">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dramatic_Play -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dramatic_Play">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Early_Intervention_Programs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Intervention_Programs">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Economic_Inequality -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_Inequality">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Economic_instability -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_instability">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Economic_policies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_policies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Education_Funding -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Education_Funding">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Education_policies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Education_policies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Educational_access_and_quality -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Educational_access_and_quality">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Emotional_Awareness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Emotional_Regulation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Regulation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Emotional_Resilience -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Resilience">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Emotional_and_Social_Development_in_early_years -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_and_Social_Development_in_early_years">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Empathy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Empathy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Empathy_and_Compassion -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Empathy_and_Compassion">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Employment_opportunities -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Employment_opportunities">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Employment_stability -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Employment_stability">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Environment_of_positive_mental_health -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Environment_of_positive_mental_health">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Environmental_factors -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Environmental_factors">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ethical_Decision-making -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ethical_Decision-making">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Executive_Functioning -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Executive_Functioning">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Exposure_to_allergens -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_allergens">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Exposure_to_hazardous_substance -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_hazardous_substance">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Financial_resources -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Financial_resources">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Fine_Motor_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Fine_Motor_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Funding_allocation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Funding_allocation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Governance_structures -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Governance_structures">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Grammar_and_Syntax -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Grammar_and_Syntax">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Gross_Motor_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Gross_Motor_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Health_and_Nutrition -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_and_Nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Health_equity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_equity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Healthcare_access_and_quality -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthcare_access_and_quality">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Healthy_eating_campaign -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_eating_campaign">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Healthy_lifestyle_choices -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_lifestyle_choices">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Healthy_sleep_habits -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_sleep_habits">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Impact_of_multilingualism -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Impact_of_multilingualism">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Impacts_attendance_rates -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Impacts_attendance_rates">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Proximity_to_schools"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Transportation_logistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Income_level -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Income_level">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Information_access_policies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Information_access_policies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Technology_integration_policies"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Knowledge_about_Nutrition -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Knowledge_about_Nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Knowledge_on_hygiene_practices -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Knowledge_on_hygiene_practices">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Language_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Language_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Language_diversity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Language_diversity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_demographics"/>
+        <owl:disjointWith rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Racial_and_ethnic_diversity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Letter_Recognition -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Letter_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Level_of_community_violence -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Level_of_community_violence">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mathematical_Thinking -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mathematical_Thinking">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Memory_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Memory_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mental_health_support -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mental_health_support">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mindfulness_programs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mindfulness_programs">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Moral_Reasoning -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Moral_Reasoning">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Motor_Planning_and_Execution -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Motor_Planning_and_Execution">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Multicultural_Awareness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Multicultural_Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Music_and_Rhythm -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Music_and_Rhythm">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_aesthetics -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_aesthetics">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_and_built_in_environment -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_and_built_in_environment">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_demographics -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_demographics">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_safety -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_safety">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Neighborhood_social_capital -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_social_capital">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Noise_level_in_surroundings -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Noise_level_in_surroundings">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Object_Permanence -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Object_Permanence">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Occupational_segregation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Occupational_segregation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Online_safety -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Online_safety">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_access_to_information_and_resources -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_access_to_information_and_resources">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_attitude_towards_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_attitude_towards_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_communication_with_educators -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_communication_with_educators">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_cultural_background -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_cultural_background">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_educational_level -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_educational_level">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_expectation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_expectation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_factors -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_factors">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_health_and_well_being -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_health_and_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_involvement -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_involvement">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_involvement_in_Decision_making -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_involvement_in_Decision_making">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_language_proficiency -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_language_proficiency">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_role_modelling -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_role_modelling">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_socioeconomic_status -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_socioeconomic_status">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_supports -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_supports">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parental_time_availability -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_time_availability">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Parenting_style -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parenting_style">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Peer_influence -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Peer_influence">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Phonemic_Awareness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Phonemic_Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Physical_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physical_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Physical_activity_challenges -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physical_activity_challenges">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Physical_environment -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physical_environment">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Environmental_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Poverty_status -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Poverty_status">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Pragmatic_Language_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Pragmatic_Language_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Preschool_Education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Preschool_Education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Pretend_Play -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Pretend_Play">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Prevent_negative_peer_pressure -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prevent_negative_peer_pressure">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Violence_prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Prevention_of_bullying -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prevention_of_bullying">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Violence_prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Preverbal_Communication -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Preverbal_Communication">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Print_Awareness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Print_Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Privacy_and_security -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Privacy_and_security">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Problem-solving_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Problem-solving_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Professional_development_program -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Professional_development_program">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Promotion_of_positive_peer_relationship -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Promotion_of_positive_peer_relationship">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Violence_prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Prosocial_Behavior -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prosocial_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Proximity_to_schools -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Proximity_to_schools">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Racial_and_ethnic_diversity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Racial_and_ethnic_diversity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_demographics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Racial_segregation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Racial_segregation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Resource_distribution -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Resource_distribution">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Responsible_digital_literacy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Technology_integration_policies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Reunion_and_Attachment_Patterns -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Reunion_and_Attachment_Patterns">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Role-Playing -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Role-Playing">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#SOHO -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Safe_access_of_physical_activity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Safe_access_of_physical_activity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#School_accountability_measures -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_accountability_measures">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#School_improvement_initiatives -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_improvement_initiatives">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#School_leadership -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_leadership">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#School_quality -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_quality">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Secure_Attachment -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Secure_Attachment">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Self-Regulation -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Self-Regulation">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Self-esteem -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Self-esteem">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sensory_Exploration -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensory_Exploration">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sensory_Integration -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensory_Integration">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Separation_Anxiety -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Separation_Anxiety">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sexual_and_reproductive_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sexual_and_reproductive_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_Mobility -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_Mobility">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_Skills_and_Relationships -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_Skills_and_Relationships">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_and_community_factors -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_and_community_factors">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#SOHO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_determinants_of_education">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Socioeconomic_status -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Socioeconomic_status">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Spatial_Awareness -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Spatial_Awareness">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Special_education_programs -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Special_education_programs">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Story_Comprehension -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Story_Comprehension">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Storytelling -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Storytelling">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Stress_reduction_strategies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stress_reduction_strategies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Student_support_services -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Student_support_services">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Substance_abuse_prevention -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Substance_abuse_prevention">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Symbolic_Play -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Symbolic_Play">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Teacher_recruitment_and_hiring -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Teacher_recruitment_and_hiring">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Technology_integration_policies -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Technology_integration_policies">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Toxins_in_atmosphere -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Toxins_in_atmosphere">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Transportation_logistics -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Transportation_logistics">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Proximity_to_schools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Trust_and_Attachment_Relationships -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Trust_and_Attachment_Relationships">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Understanding_Right_and_Wrong -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Understanding_Right_and_Wrong">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Violence_prevention -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Violence_prevention">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Building -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Building">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Development -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Development">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Wealth_disparity -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Wealth_disparity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Absence_of_food_insecurity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Absence_of_hunger"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_balanced_meals"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_nutritious_food_options"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_after_school_programs"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_extra_curricular_activities"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_libraries"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_tutoring_centers"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_clean_water_and_sanitation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_eating_campaign"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mindfulness_programs"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physical_activity_challenges"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Stress_reduction_strategies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_computers"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_digital_resources"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_online_educational_resources"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_green_spaces_in_neighborhood"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Air_quality"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_aesthetics"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Noise_level_in_surroundings"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_healthcare"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_health_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Childhood_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_environmental_hazards"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_equity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_promotion_initiative"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mental_health_support"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Nutrition_and_food_insecurity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Safe_access_of_physical_activity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sleep_quality_of_children"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Substance_abuse_prevention"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Violence_prevention"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_immunization"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_preventive_care"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_routine_checks_up"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_mental_health"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_treatments_effecting_physical_health"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Access_to_technology"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Availability_of_educational_resources"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_role_model"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_support_and_engagement"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Environmental_factors"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_demographics"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_safety"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_social_capital"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Peer_influence"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Proximity_to_schools"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_quality"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adequate_duration_of_sleep_in_children"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Conducive_sleep_environment"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_sleep_habits"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Administrative_practices"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#College_and_carrier_readiness_program"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_engagement_and_partnership"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Curriculum_development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Discipline_polices"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Education_policies"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Funding_allocation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Governance_structures"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Professional_development_program"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Resource_distribution"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_accountability_measures"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_improvement_initiatives"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#School_leadership"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Special_education_programs"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Student_support_services"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Teacher_recruitment_and_hiring"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Technology_integration_policies"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Affordability_of_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cost_of_living"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_Inequality"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_policies"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Education_Funding"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Employment_opportunities"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Employment_stability"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Financial_resources"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Income_level"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Occupational_segregation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Poverty_status"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Racial_segregation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_Mobility"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Socioeconomic_status"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Wealth_disparity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Air_pollution"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_allergens"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Exposure_to_hazardous_substance"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Toxins_in_atmosphere"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Articulation_and_Phonetics"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Grammar_and_Syntax"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Pragmatic_Language_Skills"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Preverbal_Communication"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Development"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Artistic_Expression"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creative_Thinking"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dance_and_Movement"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dramatic_Play"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Music_and_Rhythm"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Attachment_and_Bonding"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cognitive_Stimulation_in_early_childhood"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creative_and_Expressive_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_and_Multilingual_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Intervention_Programs"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Early_Literacy_Skills"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_and_Social_Development_in_early_years"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Moral_and_Ethical_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physical_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Play_and_Imaginative_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Preschool_Education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensorimotor_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_and_Emotional_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Socio-Emotional_Skills"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Speech_and_Language_Development"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Bilingualism_and_Language_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Identity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Sensitivity_and_Inclusion"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_Values_and_Beliefs"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Multicultural_Awareness"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Caregiver_Bonding"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Reunion_and_Attachment_Patterns"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Secure_Attachment"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Separation_Anxiety"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Trust_and_Attachment_Relationships"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cause_and_Effect_Understanding"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Motor_Planning_and_Execution"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Object_Permanence"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensory_Exploration"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Spatial_Awareness"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Chronic_disease_management"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Environment_of_positive_mental_health"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Healthy_lifestyle_choices"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Knowledge_about_Nutrition"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Knowledge_on_hygiene_practices"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sexual_and_reproductive_education"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Conflict_Resolution"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cooperation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Regulation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Empathy"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Self-esteem"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Coordination_and_Balance"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Fine_Motor_Skills"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Gross_Motor_Skills"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Health_and_Nutrition"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Sensory_Integration"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Creativity_and_Imagination"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Pretend_Play"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Role-Playing"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Storytelling"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Symbolic_Play"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_bias_in_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_celebrations"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_diversity_and_inclusion"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_expectations"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_heritage_and_traditions"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_identity"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_influence_on_teaching_and_learning_style"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_norms_and_values"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_responsiveness"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Impact_of_multilingualism"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cultural_factors"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Economic_factors_affecting_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Factors_influencing_health_and_well_being"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Institutional_factors_influencing_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Neighborhood_factors_influencing_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_factors"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cyber_ethics"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cyberbullying_prevention"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_Media_literacy"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_citizenship"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_communication"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_footprint"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Digital_health_and_well_being"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Online_safety"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Privacy_and_security"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Awareness"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emotional_Resilience"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Empathy_and_Compassion"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Self-Regulation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_Skills_and_Relationships"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Empathy_and_Compassion"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ethical_Decision-making"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Moral_Reasoning"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prosocial_Behavior"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Understanding_Right_and_Wrong"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Executive_Functioning"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Language_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mathematical_Thinking"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Memory_Development"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Problem-solving_Skills"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Letter_Recognition"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Phonemic_Awareness"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Print_Awareness"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Story_Comprehension"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Vocabulary_Building"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_access_to_information_and_resources"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_attitude_towards_education"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_communication_with_educators"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_cultural_background"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_educational_level"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_expectation"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_health_and_well_being"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_involvement"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_involvement_in_Decision_making"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_language_proficiency"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_role_modelling"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_socioeconomic_status"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_supports"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parental_time_availability"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Parenting_style"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prevent_negative_peer_pressure"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Prevention_of_bullying"/>
+            <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Promotion_of_positive_peer_relationship"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
